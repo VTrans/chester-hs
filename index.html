@@ -41,25 +41,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Bootstrap theme</a>
+          <a class="navbar-brand" href="#">VTrans GIS</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li><a href="#mapping">Mapping</a></li>
+            <li><a href="#ROW">Right-of-Way</a></li>
+            <li><a href="#rail">Rail</a></li>
+            <li><a href="#other">Other</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -69,7 +59,7 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron text-center">
-        <h1><abbr title="Geographic Information Systems" class="initialism">GIS </abbr> <small> at </small><abbr title="The Vermont Agency of Transportation" class="initialism" style="text-transform: none;"> VTrans</abbr></h1>
+        <h1><abbr title="Geographic Information Systems" class="initialism">GIS</abbr>    <small> at </small>   <abbr title="The Vermont Agency of Transportation" class="initialism" style="text-transform: none;">VTrans</abbr></h1>
 
         <p>Thanks for attending our presentation!</p>
         <p>  GIS is an interesting and influential field to work in.</p>
@@ -77,14 +67,63 @@
         <h5> We were also short on time, so we've compiled all the resources we mentioned (and more) for your to check out when you get home!</h5>
 
         <p>Any questions can be directed to your presenters:</p>
-          <a href="mailto: johnathan.croft@state.vt.us" class="btn-lg btn-info" role="button">Johnathan</a>
-          <a href="mailto: nina.safavi@state.vt.us" class="btn-lg btn-success" role="button">Nina</a>
-          <a href="mailto: stephen.smith@state.vt.us" class="btn-lg btn-primary" role="button">Stephen</a>
+        <div class="btn-group-vertical">
+          <a href="mailto: johnathan.croft@state.vt.us" class="btn btn-lg btn-info" role="button">Johnathan</a>
+          <a href="mailto: nina.safavi@state.vt.us" class="btn btn-lg btn-success" role="button">Nina</a>
+          <a href="mailto: stephen.smith@state.vt.us" class="btn btn-lg btn-primary" role="button">Stephen</a>
+        </div>
       </div> <!-- end jumbotron -->
 
-      <div class="page-header">
+      <div class="page-header" id="mapping">
         <h1>Mapping Unit Resources</h1>
+        <h2><small>  The Mapping Section has made accessible a substantial amount of data in a digital format on-line.
+          Here are links to the maps and data posted by the VTrans Mapping Section.</small></h2>
       </div>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Mapping Resources</h3>
+        </div>
+        <div class="panel-body">
+          <a href="http://vtransplanning.vermont.gov/maps" class="btn btn-primary btn-lg btn-block" target="_blank">Main Mapping Section Page</a>
+          <div class="row">
+          <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+            <h3>Information</h3>
+
+            <ul>
+                <li><a href="http://vtransplanning.vermont.gov/maps/publications" target="_blank">Annual Mileage Summaries</a>  </li>
+                <li><a href="http://vtransplanning.vermont.gov/maps/archive" target="_blank">Map Archive</a>  </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+            <h3>Static Maps</h3>
+            <ul>
+                <li><a href="ftp://vtransmaps.vermont.gov/Maps/VermontMaps/2013/StateMap_RGB.pdf" target="_blank">General Transportation Resources Map   <span class="label label-danger">PDF</span></a></li>
+                <li><a href="ftp://vtransmaps.vermont.gov/Maps/DistrictMaps/StateMap_Districts_2013.pdf" target="_blank">District Map   <span class="label label-danger">PDF</span></a>  </li>
+                <li><a href="http://vtransplanning.vermont.gov/sites/aot_policy/files/documents/highwayresearch/RuralFunclStatewide_2013.pdf" target="_blank">Rural Functional Class Map   <span class="label label-danger">PDF</span></a>  </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+            <h3>Map Series</h3>
+            <ul>
+              <li><a href="http://vtransplanning.vermont.gov/maps/town_maps" target="_blank">Town Highway Maps</a>  </li>
+              <li><a href="http://vtransplanning.vermont.gov/maps/routelogs" target="_blank">Route Logs</a>  </li>
+              <li><a href="ftp://vtransmap.aot.state.vt.us/Maps/VTrans_data_Irene/VTrans_District_Maps/Field_Assessment_Series/" target="_blank">Field Assessment Maps</a></li>
+              <li><a href="http://vtransplanning.vermont.gov/maps/publications" target="_blank">County-Town Maps</a></li>
+              <li><a href="ftp://vtransmap.aot.state.vt.us/Maps/VTrans_data_Irene/Bridge_Inspection_Maps/" target="_blank">Federal Highway Map Series</a></li>
+              <li><a href="ftp://vtransmap.aot.state.vt.us/Maps/VTrans_data_Irene/Bridge_Inspection_Maps/" target="_blank">Bridge & Culvert Inspection Maps</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+        </div>
+      </div>
+
+
+
+
       <p>
         <button type="button" class="btn btn-lg btn-default">Default</button>
         <button type="button" class="btn btn-lg btn-primary">Primary</button>
