@@ -15,7 +15,7 @@ h1, h2, h3, p {
 
 em, a {
   font-style:normal;
-  color:#8dbd0c;
+  color:#900;
 }
 
 a {
@@ -44,4 +44,8 @@ div.center {
 
 div.imageText {
   text-shadow:0px 0px 5px rgba(0,0,0,0.2);
+}
+
+strong {
+  color: #063;
 }
